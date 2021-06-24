@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Survey form</title>
+    <link rel="stylesheet" href="CSS\survey.css">
+</head>
+<body id="background-image" class="background-color">
+    <header>
+        <h1>Kenyan Safari Survey form</h1>
+        <p id="description" class="font"> Thankyou for taking the Kenyan Safari</p>
+        <form id="survey-form" class="font">
+            <Label for="name" id="name-label">Name: </Label>
+            <Input type="text"  name="name" id="name" class="border-radius" required placeholder="Enter your name"></Input><br>
+            <Label for="email" id="email-label">Email: </Label>
+            <Input type="email" name="email" id="email" class="border-radius" placeholder="Email address" required></Input><br>
+            <Label for="number" id="number-label" placeholder="enter your age">Age: </Label>
+            <Input type="number" name="number" id="number" class="border-radius" min="1" max="200" placeholder=18 required></Input><br>
+            
+            <fieldset>
+                <legend>Did you enjoy your safari in Kenya: </legend>
+                <Label for="my-radio" >
+                <Input type="radio" id="yes" name="my-radio" checked>Yes</Input><br>
+                </Label>
+                <Label for="radio" >
+                <Input type="radio" id="no" name="my-radio">No</Input><br>
+            </Label>
+            </fieldset>
+            <fieldset>
+                <legend>Which was your favourite National Park: </legend>
+            <Label for="my-check" >
+            <Input type="checkbox" id="maasai-mara" name="my-check">Maasai Mara</Input><br>
+            </Label>
+            <Label for="my-check" class="my-margin">
+            <Input type="checkbox" id="tsavo" name="my-check" value="Tsavo">Tsavo National Park</Input><br>
+            </Label>
+            <Label for="my-check" class="my-margin">
+            <Input type="checkbox" id="Nairobi" name="my-check" value="Nairobi">Nairobi National park</Input><br>
+            </Label>
+            <Label for="my-check" class="my-margin">
+                <Input type="checkbox" id="Nairobi" name="my-check" value="Amboselli">Amboselli National park</Input><br>
+            </Label>
+            </fieldset>
+            <label for="dropdown"> Where would you like to go in our next safari: </label>
+                <select id="dropdown" name="dropdown">
+                    <option value="Mount Kenya">Mount Kenya</option>
+                    <option value="Rift valley">Rift valley</option>
+                    <option value="Thompson fall">Thompson falls</option>
+                    <option value="Hells gate">Hells gate</option>
+                </select>
+            <textarea id="textarea" name="my-text" id="" cols="50" rows="10" placeholder="Comment about your experience..."></textarea>
+            <br>
+            <button id="submit" type="submit" value="submit">Submit</button>
+        </form>
+    </header>
+</body>
+</html>

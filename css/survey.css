@@ -1,0 +1,56 @@
+#survey-form {
+    display: grid;
+    margin: auto;
+    width: max-content;
+    padding: 20px;
+    background-color: rgba(165, 42, 42, 0.7);
+    grid-row-gap: 1px;
+    border-radius: 5px;
+        
+}
+
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.1em;
+}
+#background-image{
+    background: linear-gradient(rgba(240, 42, 42, 0.2), rgba(165, 42, 42, 0.2)),
+    url(https://images.unsplash.com/photo-1618123305218-c1fa44178634?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+button{
+    background-color: #006699;
+    width: 100%;
+    font-style: bold;
+    color: #fff;
+    padding: 5px;
+    font-size: 1.2em;
+}
+.border-radius{
+    border-radius: 5px;
+    padding: 8px 2px 8px;
+}
+
+#description{
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+    text-decoration: solid;
+    font-size: 1em;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+    
+}
+#textarea {
+    margin-top: 10px;
+}
+
+
